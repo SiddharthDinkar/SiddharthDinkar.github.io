@@ -3,6 +3,7 @@ layout: post
 title:  "Heckle and Jekyll!"
 date:   2018-05-07 14:26:00 -0700
 categories: uncategorized
+author: Siddharth Dinkar
 ---
 
 
