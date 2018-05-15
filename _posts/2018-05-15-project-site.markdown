@@ -6,6 +6,6 @@ categories: uncategorized
 author: Siddharth Dinkar
 ---
 
-During 7th Grade I took a Intro to Programming where I learned JavaScript and about GitHub. Here is a link to all of my [url]
+During 7th Grade I took a Intro to Programming where I learned JavaScript and about GitHub. Here is a link to all of my [work]
 
-[url]: /website/
+[work]: /website/
