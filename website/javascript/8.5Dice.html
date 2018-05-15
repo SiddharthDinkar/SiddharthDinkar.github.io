@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body onLoad = "dice()">
+<script type="text/javascript">
+
+function dice() {
+	return Math.floor(Math.random() * 6)+1;
+	
+}
+
+var firstroll = dice();
+var secondroll = dice();
+
+	document.write("You rolled " + dice() + ".");
+
+</script>
+
+
+</body>
+</html>

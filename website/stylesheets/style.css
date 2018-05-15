@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* My Color Palette
+Color 1:#0000FF
+Color 2:#AF00FF
+Color 3:#000000
+*/
+
+
+
+	#footer p {
+		text-align: right;
+	}
+	
+	
+	
+	/*-----------------------------------
+	
+				BASIC STRUCTURE
+				
+	-----------------------------------*/
+	#wrapper {
+		width: 960px;
+		padding: 5px;
+		margin: 20px auto;
+	}
+	
+	#header {
+		height: 100px;	
+	}
+	
+	#sidebar {
+		float: left;
+		width: 300px;	
+	}
+	
+	#content {
+		float: right;
+		width: 600px;	
+	}
+	
+	#footer {
+		clear: both;	
+	}
+	/*-----------------------------------
+	
+				COLORS AND FONTS
+	
+	-----------------------------------*/
+	
+	body {
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+		color: red;
+		background-color: black;
+	}
+	 
+	#header, #sidebar, #content, #footer {
+		background-color: #ffffff;
+		margin-bottom: 4px;
+		border: ridge;
+		border-radius: 15px;
+		border-color: gray;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	
+	  
+	/*-----------------------------------
+	
+				RESPONSIVE WIDTH
+	
+	-----------------------------------*/
+	
+@media screen and (max-width: 980px) {
+	#wrapper {
+		width: 94%;
+	}
+	#content {
+		width: 65%;
+	}
+	#sidebar {
+		width: 30%;	
+	}
+}
+
+@media screen and (max-width: 700px) {
+	#content, #sidebar {
+		width: auto;                   
+		float: none;
+	}
+	#header {
+		height: auto;	
+	}
+}
+
+@media screen and (max-width: 480) {
+	#header {
+		height: auto;	
+	}
+	h1 {
+		font-size: 24px;	
+	}
+	#sidebar {
+		float: none;	
+	}
+}
+
+/* Phones*/
+@media only screen 
+and (min-device-width: 320px)
+and (max-device-width: 568px) {
+	body {
+		font-size:40px;	
+	}
+	#header {
+		height: auto;	
+	}
+	#content {
+		width: auto;	
+	}
+	#sidebar {
+		width: auto;
+		clear: both;	
+	}
+	#header, #sidebar, #content, #footer {
+		border-radius: 16px;
+		border-width: 8px;	
+	}
+}

@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<script type="text/javascript">
+var score = 0;
+function cookie_clicker() {
+	score = score + 1;
+	document.getElementById("score").value = score;
+
+}
+</script>
+</head>
+
+<body>
+<button onClick="cookie_clicker();"><img src="Cookie.gif"></button>
+<input id="score" type="text" value="0">
+</body>
+</html>
